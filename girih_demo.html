@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8" />
+	<title>Girih tiles</title>
+	<script src="girih.js"></script>
+	</head>
+	<body id="mainbody" style="background-color:rgb(64,64,64);color:white" >
+		<noscript>Please enable JavaScript!</noscript>
+		
+		<h3>Girih.js demo</h3>
+		<a href="https://en.wikipedia.org/wiki/Girih_tiles">https://en.wikipedia.org/wiki/Girih_tiles</a><br/><br/>
+		
+		<label>Iterations (1..1000) : </label><input type="text" id="iterinput" name="iterinput" value="500" ></input><br/>
+		<label>Width : </label><input type="text" id="widthinput" name="widthinput" value="1000" ></input><br/>
+		<label>Height : </label><input type="text" id="heightinput" name="heightinput" value="1000" ></input><br/>
+		<label>Edge length (20..100) : </label><input type="text" id="leinput" name="leinput" value="50" ></input><br/>
+		<label>Style (wikipedia,indigo,indigo2,onlygirih,pale): </label><input type="text" id="styleinput" name="styleinput" value="wikipedia" ></input><br/>
+		<label>Show debug: </label><input type="checkbox" id="debuginput" name="debuginput"></input><br/>
+		<br/>
+		<button id="startbutton" onclick="startgen()">START</button>
+		<br/><br/>
+		
+		<div id="svgcontainer"></div>
+		
+	</body>
+</html>
